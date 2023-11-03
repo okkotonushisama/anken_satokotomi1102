@@ -1,0 +1,83 @@
+header {
+    background: white;
+    padding: 0 30px;
+    max-width: 1230px;
+}
+
+main {
+    background: #f2f2f2;
+}
+
+.header__logo {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.login-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.login-form__heading {
+    margin: 50px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__name,
+.form__email,
+.form__password,
+.form__password_confirmation {
+    margin-bottom: 30px;
+}
+
+input {
+    height: 50px;
+    width: 450px;
+    border: 2px solid gray;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+button {
+    height: 50px;
+    width: 450px;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.form-exit__text {
+    color: gray;
+    margin: 0;
+}
+
+.form-exit__link {
+    margin-bottom: 150px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer {
+    background: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
